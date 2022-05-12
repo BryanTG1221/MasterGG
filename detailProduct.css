@@ -1,0 +1,225 @@
+:root {
+    --NavSize: 12px;
+    --NavSize1920: 15px;
+    --ArticleSize: 48px;
+    --ArticleSub: 20px;
+    --PrimaryColor : #FCD900;
+    --SecundaryColor: #272727;
+}
+
+
+body {
+    background-color: #1B1B1B;
+    font-family: 'Oswald', 'sans-serif';
+}
+
+.Nav__MasterGG {
+    width: 100%;
+    height: 77px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.MasterGG__Titulo-Nav {
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-bottom: #FCD900 2px solid;
+    font-size: var(--NavSize1920);
+    font-weight: 500;
+}
+
+.logo_MasterGG img {
+    width: 40px;
+}
+
+.Titulo_PC{
+    color: var(--PrimaryColor);
+    font-size: var(--ArticleSize);
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+}
+
+.Container__Articulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    gap: 250px;
+}
+
+.Container__MasterGG-Main {
+    display: flex;
+    justify-content: center;
+}
+
+.Articulo__MasterGG-Info {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 100px;
+}
+
+.addcart__product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+.Titulo_PC {
+    padding-right: 30px;
+}
+
+.Subtitulo__MasterGG {
+    color: white;
+    font-size: var(--ArticleSub);
+    margin: 0;
+}
+
+.Descripcion__MasterGG {
+    color: white;
+    max-width: 44ch;    
+}
+
+.Button__MasterGG {
+    display: flex;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: var(--PrimaryColor);
+    margin: 0;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#iconCart {
+    font-size: 62px;
+}
+
+.links__button {
+    text-decoration: none;
+    color: black;
+}
+
+.Container__Pc {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Circulo {
+    display: flex;
+    width: 383px;
+    height: 383px;
+    border-radius: 50%;
+    left: calc(50% - 383px/2 + 264.5px);
+    background: linear-gradient(180deg, #FCD900 0%, rgba(252, 217, 0, 0) 100%);
+}
+
+.pc__show {
+    width: 448px;
+    height: 418px;
+    position: absolute;
+}
+
+.Container__Articulo .pc__show {
+    padding-bottom: 40px;
+}
+
+.cards__pc {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.img__show {
+    width: 300px;
+    height: 300px;
+}
+
+.image__preview {
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.container__footer {
+    width: 100%;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.background-footer {
+    width: 100%;
+    height: 40%;
+}
+
+.background-img {
+    width: 100%;
+    height: 8000px;
+}
+
+.logo_MasterGG-footer {
+    width: 40px;
+}
+
+.container__footer { 
+    width: 100%;
+}
+
+
+.container__info-footer {
+    padding-top: 50px;
+    color: black;
+    font-size: var(--ArticleSub);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wave{
+    position: relative;
+}
+
+.footer__logo {
+    width: 40px;
+}
+
+.footer__mastergg {
+    position: absolute;
+}
+
+.footer__link {
+    position: absolute;
+    top: 55%;
+    left: -50%;
+}
+
+.logo-footer{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+
+}
+
+.logo-footer2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+

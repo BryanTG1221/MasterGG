@@ -1,0 +1,317 @@
+:root {
+    --NavSize: 12px;
+    --NavSize1920: 15px;
+    --ArticleSize: 48px;
+    --ArticleSub: 20px;
+    --PrimaryColor : #FCD900;
+    --SecundaryColor: #272727;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1B1B1B;
+    font-family: 'Oswald', 'sans-serif';
+}
+
+.Nav__MasterGG {
+    width: 100%;
+    height: 77px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.MasterGG__Titulo-Nav {
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-bottom: #FCD900 2px solid;
+    font-size: var(--NavSize1920);
+    font-weight: 500;
+}
+
+.logo_MasterGG img {
+    width: 40px;
+}
+
+.PcGamer-container {
+    position: relative;
+}
+
+.PcGamer-container .wrapper {
+    width: 80vw;
+    height: 60vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.PcGamer-container .slider-holder {
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    height: 100%;
+    animation: slide 15s ease infinite;
+}
+
+/* -----Bloque de codigo de la estilizacion de la informacion de la PC */
+
+
+.container__pc {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.order__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 80px;
+    gap: 150px;
+}
+
+.container__pc  .Titulo_PC{
+    color: var(--PrimaryColor);
+    font-size: var(--ArticleSize);
+    font-weight: bold;
+    margin: 0;
+}
+
+.container__pc .Subtitulo__MasterGG  {
+    color: white;
+    font-size: var(--ArticleSub);
+    margin: 0;
+}
+
+.container__pc .Descripcion__MasterGG  {
+    color: white;
+    max-width: 44ch;
+}
+
+.container__pc .Button__MasterGG {
+    width: 50%;
+    padding: 10px;
+    height: 65px;
+    background-color: var(--PrimaryColor);
+    color: black;
+    font-family: 'Oswald';
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+}
+
+.Button__MasterGG .links__button  {
+    text-decoration: none;
+    color: black;
+}
+
+/* -----Bloque de codigo de la estilizacion de la informacion de la PC */
+
+/* -----Bloque de codigo de la estilizacion del Circulo e imagen de la PC */
+.figure__pc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.Circulo {
+    display: flex;
+    width: 383px;
+    height: 383px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #FCD900 0%, rgba(252, 217, 0, 0) 100%);
+    justify-content: center;
+}
+
+.pc__show {
+    width: 448px;
+    height: 41  8px;
+    padding-bottom: 50px;
+}
+
+#pc2__image {
+    width: 330px;
+    height: 380px;
+    top: 34%;
+}
+
+#pc3__image {
+    width: 300px;
+    height: auto;
+    top: 30%;
+}
+
+
+
+
+/* -----Bloque de codigo de la estilizacion de la informacion de la PC */
+
+.PcGamer-container .button-holder {
+    position: absolute;
+    bottom: 0%;
+}
+
+.PcGamer-container .button-holder .dots {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--PrimaryColor);
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+/* Bloque de Creacion de Animacion */
+
+@keyframes slide {
+    0%{transform: translateX(0%);}    
+    10%{transform: translateX(-100%);}    
+    20%{transform: translateX(-100%);}    
+    30%{transform: translateX(-100%);}    
+    40%{transform: translateX(-200%);}    
+    50%{transform: translateX(-200%);}    
+    60%{transform: translateX(-200%);}    
+    70%{transform: translateX(0%);}    
+    80%{transform: translateX(0%);}    
+    90%{transform: translateX(0%);}    
+    100%{transform: translateX(0%);}    
+}
+
+/*Bloque de Creacion de Animacion*/
+
+.Container_Animation {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+}
+
+
+.Container__Products {
+    width: 100%;
+    height: 155vh;
+    box-shadow: 0px -10px var(--PrimaryColor);
+    background-color: var(--SecundaryColor);
+    padding-bottom: 50px;
+    border-radius: 55px 55px 0 0;
+}
+
+.banner__Products {
+    width: 100%;
+    border-radius: 55px 55px 0 0;
+}
+
+.product__keyboard {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.container__Info-product {
+    width: 500px;
+}
+
+.product__preview {
+    width: 353px;
+    height: 246px;
+    border-radius: 15px;
+    margin-right: 50px;
+    image-resolution: 300dpi;
+}
+
+.product__tittle {
+    color: var(--PrimaryColor);
+    font-size: var(--ArticleSize);
+    margin: 0px;
+}
+
+.product__subtittle {
+    color: white;
+    font-size: var(--ArticleSub);
+    margin: 0px;
+}
+
+.product__descripcion {
+    color: white;
+    font-size: var(--NavSize1920);
+    font-weight: lighter;
+    max-width: 40ch;
+}
+
+.Button__Product {
+    background-color: var(--PrimaryColor);
+    padding: 20px;
+    width: 50%;
+    border-radius: 15px;
+    font-size: var(--ArticleSub);
+    font-weight: bold;
+    font-family: 'Oswald';
+    border: none;
+}
+
+.Container__Product {
+    width: 100%;
+    height: 150vh;
+}
+
+.banner__image {
+    width: 100%;
+    object-fit: fill;
+}
+
+.container__info-footer {
+    padding-top: 50px;
+    color: black;
+    font-size: var(--ArticleSub);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wave{
+    position: relative;
+}
+
+.footer__logo {
+    width: 40px;
+}
+
+.footer__mastergg {
+    position: absolute;
+}
+
+.footer__link {
+    position: absolute;
+    top: 55%;
+    left: -50%;
+}
+
+.logo-footer{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+
+}
+
+.logo-footer2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+
+
