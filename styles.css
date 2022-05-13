@@ -135,7 +135,7 @@ body {
 
 .pc__show {
     width: 448px;
-    height: 41  8px;
+    height: 418px;
     padding-bottom: 50px;
 }
 
@@ -201,11 +201,22 @@ body {
 
 .Container__Products {
     width: 100%;
-    height: 155vh;
     box-shadow: 0px -10px var(--PrimaryColor);
     background-color: var(--SecundaryColor);
     padding-bottom: 50px;
     border-radius: 55px 55px 0 0;
+}
+
+#Keyboards {
+    margin-bottom: 80px;
+}
+
+#mouse-section {
+    margin-bottom: 80px;
+}
+
+#headset-section {
+    margin-bottom: 150px;
 }
 
 .banner__Products {
@@ -263,7 +274,6 @@ body {
 
 .Container__Product {
     width: 100%;
-    height: 150vh;
 }
 
 .banner__image {
@@ -310,6 +320,97 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
+}
+
+
+@media (max-width:850px) {
+    .PcGamer-container .wrapper {
+        width: 100%;
+    }
+
+    .PcGamer-container .wrapper .container__pc {
+        height: 100%;
+        width: 100%;
+    }
+
+    .PcGamer-container .wrapper .container__pc .container__info-pc {
+        margin-left: 20px;
+    }
+
+    .figure__pc {
+        margin-right: 20px;
+    }
+
+    .container__pc .Button__MasterGG {
+       width: 90%;
+    }
+
+    .Container_Animation {
+        display: none;
+    }
+
+    .Container__Product {
+        height: auto;
+    }
+
+
+}
+
+
+@media (max-width:550px) {
+    .PcGamer-container {
+        width: 90%;
+        height: 120vh;
+    }
+
+    .PcGamer-container .wrapper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .order__container {
+        display: block;
+    }
+
+    .container__info-pc {
+        margin-bottom: 50px;
+    }
+
+    .Container__Product {
+        margin-top: 600px;
+    }
+
+    .product__keyboard {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product__preview {
+        margin: 0;
+    }
+
+    .container__Info-product {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product__descripcion {
+        text-align: center;
+    }
+
+    .Container__Product {
+        margin: 0;
+    }
+
+    #mouse-section .product__keyboard {
+        padding-top: 50px;
+    }
+
+    .logo-footer {
+        left: 10%;
+    }
 }
 
 
