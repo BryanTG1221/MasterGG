@@ -1,0 +1,23 @@
+{
+  "name": "mastergg",
+  "version": "1.0.0",
+  "description": "Repositorio del desarrollo de el proyecto de Taller de Bases de Datos, en el cual se desarrolla una WEB de venta Gaming.",
+  "main": "mysql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryanTG1221/MasterGG.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryanTG1221/MasterGG/issues"
+  },
+  "homepage": "https://github.com/BryanTG1221/MasterGG#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
