@@ -127,8 +127,8 @@ body {
 }
 
 .pc__show {
-    width: 448px;
-    height: 418px;
+    width: auto;
+    height: auto;
     position: absolute;
 }
 
@@ -144,12 +144,13 @@ body {
 }
 
 .img__show {
-    width: 300px;
+    width: 400px;
     height: 300px;
+    object-fit: cover;
 }
 
 .image__preview {
-    width: 300px;
+    width: 400px;
     height: 300px;
     border-radius: 25px;
 }
