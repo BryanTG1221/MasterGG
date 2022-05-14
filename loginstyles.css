@@ -1,0 +1,113 @@
+:root {
+    --NavSize: 12px;
+    --NavSize1920: 15px;
+    --ArticleSize: 48px;
+    --ArticleSub: 20px;
+    --PrimaryColor : #FCD900;
+    --SecundaryColor: #272727;
+}
+
+body {
+    font-family: 'Oswald', 'sans-serif';
+    background-color: #1B1B1B;
+    overflow-y: hidden;
+    background: url(resources/bg-login-register.svg);
+    background-size: cover;
+}
+
+.container__main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__formulario {
+    display: flex;
+    width: 30%;
+    height: 70vh;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--SecundaryColor);
+    border-radius: 20px;
+}
+
+.container-left {
+    background-color: var(--SecundaryColor);
+    display: flex;
+    width: 75%;
+    height: 100%;
+    margin: 0;
+}
+
+.container-logo {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    padding-top: 50px;
+}
+
+.TituloFormulario {
+    margin: 0;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.container-form {
+    width: 60%;
+}
+
+.form-register {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+input {
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: #4747479f;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.button-register {
+    height: 60px;
+    border-radius: 15px;
+    background-color: var(--PrimaryColor);
+    font-family: 'Oswald';
+    font-size: 19px;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.button-login {
+    height: 60px;
+    border-radius: 15px;
+    background-color: white;
+    font-family: 'Oswald';
+    font-size: 19px;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 40px;
+}
+

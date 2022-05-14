@@ -36,6 +36,49 @@ body {
     font-weight: 500;
 }
 
+.container-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+.button-login {
+    height: 40px;
+    width: 120px;
+    border-radius: 15px;
+    background-color: var(--PrimaryColor);
+    border: none;
+    font-family: 'Oswald';
+    font-size: 18px;
+    position: absolute;
+    top: 77px;
+    right: 200px;
+}
+
+.button-register {
+    height: 40px;
+    width: 120px;
+    border-radius: 15px;
+    background-color: white;
+    border: none;
+    font-family: 'Oswald';
+    font-size: 18px;
+    position: absolute;
+    top: 77px;
+    right: 50px;
+}
+
+.button-link {
+    text-decoration: none;
+    color: black;
+}
+
+.container-buttons {
+    display: flex;
+    
+}
+
 .logo_MasterGG img {
     width: 40px;
 }
@@ -139,17 +182,7 @@ body {
     padding-bottom: 50px;
 }
 
-#pc2__image {
-    width: 330px;
-    height: 380px;
-    top: 34%;
-}
 
-#pc3__image {
-    width: 300px;
-    height: auto;
-    top: 30%;
-}
 
 
 
