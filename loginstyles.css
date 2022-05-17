@@ -88,7 +88,8 @@ input {
     padding-left: 10px;
 }
 
-.button-register {
+
+.button-login {
     height: 60px;
     border-radius: 15px;
     background-color: var(--PrimaryColor);
@@ -96,11 +97,10 @@ input {
     font-size: 19px;
     font-weight: bold;
     border: none;
-    margin-bottom: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
-
-.button-login {
+.button-register {
     height: 60px;
     border-radius: 15px;
     background-color: white;
@@ -108,6 +108,10 @@ input {
     font-size: 19px;
     font-weight: bold;
     border: none;
-    margin-bottom: 40px;
+}
+
+.button-link {
+    text-decoration: none;
+    color: black;
 }
 

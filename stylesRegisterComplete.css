@@ -1,0 +1,87 @@
+:root {
+    --NavSize: 12px;
+    --NavSize1920: 15px;
+    --ArticleSize: 48px;
+    --ArticleSub: 20px;
+    --PrimaryColor : #FCD900;
+    --SecundaryColor: #272727;
+}
+
+body {
+    background-color: #1B1B1B;
+    font-family: 'Oswald', 'sans-serif';
+}
+
+.container__main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 70px;
+    padding-top: 70px;
+}
+
+.mastergg-p {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+}
+
+.info-registro{
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 92px;
+    color: white;
+    margin: 0;
+}
+
+.p-bienvenida {
+    font-size: 30px;
+    color: var(--PrimaryColor);
+    margin: 0;
+}
+
+
+.container-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button-home {
+    width: 20%;
+    height: 60px;
+    border-radius: 25px;
+    margin-top: 50px;
+    background-color: var(--PrimaryColor);
+    border: none;
+}
+
+.button-home a {
+    font-family: 'Oswald';
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+

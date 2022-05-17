@@ -7,7 +7,6 @@
     <title>Master GG</title>
     <link rel="shortcut icon" href="resources/MasterGGLogo.png" type="image/x-icon">
     <link rel="stylesheet" href="loginstyles.css">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <div class="container__main">
@@ -17,14 +16,14 @@
                 <h1 class="TituloFormulario">MASTER GG</h1>
             </div>
             <div class="container-form">
-                <form class="form-register" action="">
+                <form id="form-register" class="form-register" action="registro.php" method="post">
                     <label for="input-name">Nombre de usuario</label>
-                    <input type="text" id="input-name">
+                    <input type="text" id="input-name" name="usuario">
                     <label for="input-correo">Correo Electronico</label>
-                    <input type="email" id="input-correo">
-                    <label for="input-pass">Password</label>
-                    <input type="password" id="input-password">
-                    <button class="button-register">REGISTRARME</button>
+                    <input type="email" id="input-correo" name="email">
+                    <label for="input-password">Password</label>
+                    <input type="password" name="passwd" id="input-password">
+                    <button class="button-register" id="button-register" type="submit" name="register">REGISTRARME</button>
                     <button class="button-login">INICIAR SESION</button>
                 </form>
             </div>

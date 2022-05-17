@@ -157,6 +157,11 @@ body {
     color: black;
 }
 
+.Button__Product .links-buttons {
+    text-decoration: none;
+    color: black;
+}
+
 /* -----Bloque de codigo de la estilizacion de la informacion de la PC */
 
 /* -----Bloque de codigo de la estilizacion del Circulo e imagen de la PC */

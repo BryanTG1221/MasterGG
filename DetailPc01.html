@@ -12,15 +12,15 @@
 </head>
 <body>
     <nav class="Nav__MasterGG">
-        <a class="MasterGG__Titulo-Nav" href="#">PC GAMERS</a>
-        <a class="MasterGG__Titulo-Nav" href="#">TECLADOS</a>
+        <a class="MasterGG__Titulo-Nav" href="index.html">PC GAMERS</a>
+        <a class="MasterGG__Titulo-Nav" href="index.html">TECLADOS</a>
         <div class="logo_MasterGG">
             <img src="resources/MasterGGLogo.png" alt="logo">
         </div>
-        <a class="MasterGG__Titulo-Nav" href="#">HEADSETS</a>
-        <a class="MasterGG__Titulo-Nav" href="#">MOUSE</a>
+        <a class="MasterGG__Titulo-Nav" href="index.html">HEADSETS</a>
+        <a class="MasterGG__Titulo-Nav" href="index.html">MOUSE</a>
     </nav>
-
+    
     <div class="Container__Articulo">
         <div class="Container__MasterGG-Main">
             <article class="Articulo__MasterGG-Info">
@@ -29,14 +29,18 @@
                         <h1 class="Titulo_PC">GG CS:GO</h1>
                         <h2 class="Subtitulo__MasterGG">GAMA MEDIA</h2>
                     </div>
-                    <button class="Button__MasterGG"><i id="iconCart" class='bx bx-cart-add' ></i></button>
+                    <button class="Button__MasterGG">
+                        <a class="link-icon" href="login.php?producto=1">
+                            <i id="iconCart" class='bx bx-cart-add' ></i>
+                        </a>
+                    </button>
                 </div>
                 <p class="Descripcion__MasterGG">PC Gamer con especificaciones mas que suficientes para poder iniciar en el mundo del gaming en PC, con la gran potencia que nos entrega su NVIDIA 1650 Super podras jugar, trabajar e incluso hacer streams en una caluidad de 1080p</p>
             </article>
         </div>
         <div class="Container__Pc">
             <div class="Circulo"></div>
-            <img class="pc__show" src="resources/PC/GGcsgo/GGcsgoShow.png" alt="logo_MasterGG">
+            <img id="pc01" class="pc__show" src="resources/PC/GGcsgo/GGcsgoShow.png" alt="logo_MasterGG">
         </div>
     </div>
     <section class="cards__pc">

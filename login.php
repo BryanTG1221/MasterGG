@@ -14,19 +14,30 @@
         <div class="container__formulario">
             <div class="container-logo">
                 <img class="logo" src="resources/MasterGGLogo.png" alt="logo">
-                <h1 class="TituloFormulario">MASTER GG</h1>
+                <h1 class="TituloFormulario">MASTER GG</h1> 
             </div>
             <div class="container-form">
-                <form class="form-register" action="">
+                <form class="form-register" action="loginValidacion.php?varId=$idProducto" method="POST">
                     <label for="input-name">Nombre de usuario</label>
-                    <input type="text" id="input-name">
+                    <input type="text" id="input-name" name="usuario">
                     <label for="input-pass">Password</label>
-                    <input type="password" id="input-password">
-                    <button class="button-register">REGISTRARME</button>
+                    <input type="password" id="input-password" name="passwd">
                     <button class="button-login">INICIAR SESION</button>
+                    <button class="button-register"><a class="button-link" href="register.html">REGISTRARME</a></button>
                 </form>
             </div>
         </div>
     </div>
+    <?php
+
+        $idProductoGbl;
+        $idProductoGbl = $_GET['producto'];
+
+        session_start();
+        ob_start();
+
+        $_SESSION['IdProductoLog'] = $idProductoGbl;
+
+    ?> 
 </body>
 </html>
