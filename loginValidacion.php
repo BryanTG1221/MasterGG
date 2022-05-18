@@ -49,7 +49,10 @@
         $filas = mysqli_num_rows($resultado);
         
         if($filas){
-            if($IdProducto == 1) {
+            if($IdProducto == 0 && $usuarioLog == 'Amser') {
+                header("location: estadisticas.php");
+            }
+            else if($IdProducto == 1) {
                 header("location: compraexitosaPC01.php?varName=$usuarioLog");
             }
             else if ($IdProducto == 2) {

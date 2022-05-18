@@ -162,6 +162,22 @@ body {
     color: black;
 }
 
+#icon-estadisticas {
+    font-size: 45px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.button-estadisticas {
+    width: 60px;
+    height: 70px;
+    background-color: var(--PrimaryColor);
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    right: 200px;
+}
 /* -----Bloque de codigo de la estilizacion de la informacion de la PC */
 
 /* -----Bloque de codigo de la estilizacion del Circulo e imagen de la PC */
